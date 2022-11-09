@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<demos>
+   <name>Simscape</name>
+   <type>simulink</type>
+   <icon>$toolbox/matlab/icons/simulinkicon.gif</icon>
+   <label>Simscape</label>
+   <description isCdata="no">
+<p>Simscape&#8482; extends Simulink&#174; with tools for modeling systems spanning mechanical, electrical, hydraulic, and other physical domains as physical networks. It provides fundamental building blocks from these domains to let you create models of custom components. The MATLAB&#174; based Simscape language enables text-based authoring of physical modeling components, domains, and libraries.</p>
+   </description>
+<demosection>
+ <label>Mechanical Systems</label>
+   <demoitem>
+    <label>Mass-Spring-Damper with Controller</label>
+    <source>ssc_mass_spring_damper_control</source>
+    <thumbnail>html/ssc_mass_spring_damper_control_01.png</thumbnail>
+    <file>html/ssc_mass_spring_damper_control.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Mass-Spring-Damper in Simulink and Simscape</label>
+    <source>ssc_mass_spring_damper_sl</source>
+    <thumbnail>html/ssc_mass_spring_damper_sl_01.png</thumbnail>
+    <file>html/ssc_mass_spring_damper_sl.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Double Mass-Spring-Damper in Simulink and Simscape</label>
+    <source>ssc_mass_spring_damper_sl_dbl</source>
+    <thumbnail>html/ssc_mass_spring_damper_sl_dbl_01.png</thumbnail>
+    <file>html/ssc_mass_spring_damper_sl_dbl.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Simple Mechanical System</label>
+    <source>ssc_simple_mechanical_system</source>
+    <thumbnail>html/ssc_simple_mechanical_system_01.png</thumbnail>
+    <file>html/ssc_simple_mechanical_system.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Mechanical System with Translational Friction</label>
+    <source>ssc_mechanical_system_translational_friction</source>
+    <thumbnail>html/ssc_mechanical_system_translational_friction_01.png</thumbnail>
+    <file>html/ssc_mechanical_system_translational_friction.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Mechanical System with Translational Hard Stop</label>
+    <source>ssc_mechanical_system_translational_hardstop</source>
+    <thumbnail>html/ssc_mechanical_system_translational_hardstop_01.png</thumbnail>
+    <file>html/ssc_mechanical_system_translational_hardstop.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Mechanical Rotational System with Stick-Slip Motion</label>
+    <source>ssc_rot_system_stick_slip</source>
+    <thumbnail>html/ssc_rot_system_stick_slip_01.png</thumbnail>
+    <file>html/ssc_rot_system_stick_slip.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Linkage Mechanism</label>
+    <source>ssc_linkage_mechanism</source>
+    <thumbnail>html/ssc_linkage_mechanism_01.png</thumbnail>
+    <file>html/ssc_linkage_mechanism.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Electrical Systems</label>
+   <demoitem>
+    <label>Creating A New Circuit</label>
+    <source>ssc_new_elec</source>
+    <thumbnail>html/ssc_new_elec_01.png</thumbnail>
+    <file>html/ssc_new_elec.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>RC Circuit in Simulink and Simscape</label>
+    <source>ssc_rc_circuit_sl</source>
+    <thumbnail>html/ssc_rc_circuit_sl_01.png</thumbnail>
+    <file>html/ssc_rc_circuit_sl.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Cascaded RC Circuit in Simulink and Simscape</label>
+    <source>ssc_rc_circuit_sl_cascade</source>
+    <thumbnail>html/ssc_rc_circuit_sl_cascade_01.png</thumbnail>
+    <file>html/ssc_rc_circuit_sl_cascade.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Shunt Motor</label>
+    <source>ssc_shuntmotor</source>
+    <thumbnail>html/ssc_shuntmotor_01.png</thumbnail>
+    <file>html/ssc_shuntmotor.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Permanent Magnet DC Motor</label>
+    <source>ssc_dcmotor</source>
+    <thumbnail>html/ssc_dcmotor_01.png</thumbnail>
+    <file>html/ssc_dcmotor.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lead-Acid Battery</label>
+    <source>ssc_lead_acid_battery</source>
+    <thumbnail>html/ssc_lead_acid_battery_01.png</thumbnail>
+    <file>html/ssc_lead_acid_battery.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lead-Acid Battery with Dashboard Blocks</label>
+    <source>ssc_lead_acid_battery_dashboard</source>
+    <thumbnail>html/ssc_lead_acid_battery_dashboard_01.png</thumbnail>
+    <file>html/ssc_lead_acid_battery_dashboard.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium-Ion Battery Pack With Fault</label>
+    <source>ssc_lithium_battery_with_fault</source>
+    <thumbnail>html/ssc_lithium_battery_with_fault_01.png</thumbnail>
+    <file>html/ssc_lithium_battery_with_fault.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium-Ion Battery Pack With Fault Using Arrays</label>
+    <source>ssc_lithium_battery_arrays</source>
+    <thumbnail>html/ssc_lithium_battery_arrays_01.png</thumbnail>
+    <file>html/ssc_lithium_battery_arrays.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium Battery Cell - One RC-Branch Equivalent Circuit</label>
+    <source>ssc_lithium_cell_1RC</source>
+    <thumbnail>html/ssc_lithium_cell_1RC_01.png</thumbnail>
+    <file>html/ssc_lithium_cell_1RC.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium Battery Cell - Two RC-Branch Equivalent Circuit</label>
+    <source>ssc_lithium_cell_2RC</source>
+    <thumbnail>html/ssc_lithium_cell_2RC_01.png</thumbnail>
+    <file>html/ssc_lithium_cell_2RC.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium Pack Thermal Runaway</label>
+    <source>ssc_lithium_pack_thermalRunaway</source>
+    <thumbnail>html/ssc_lithium_pack_thermalRunaway_01.png</thumbnail>
+    <file>html/ssc_lithium_pack_thermalRunaway.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Nonlinear Bipolar Transistor</label>
+    <source>ssc_bipolar_nonlinear</source>
+    <thumbnail>html/ssc_bipolar_nonlinear_01.png</thumbnail>
+    <file>html/ssc_bipolar_nonlinear.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Small-Signal Bipolar Transistor</label>
+    <source>ssc_bipolar_smallsignal</source>
+    <thumbnail>html/ssc_bipolar_smallsignal_01.png</thumbnail>
+    <file>html/ssc_bipolar_smallsignal.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Band-Limited Op-Amp</label>
+    <source>ssc_opamp_bandlimited</source>
+    <thumbnail>html/ssc_opamp_bandlimited_01.png</thumbnail>
+    <file>html/ssc_opamp_bandlimited.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Finite-Gain Op-Amp</label>
+    <source>ssc_opamp_finitegain</source>
+    <thumbnail>html/ssc_opamp_finitegain_01.png</thumbnail>
+    <file>html/ssc_opamp_finitegain.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Op-Amp Circuit - Differentiator</label>
+    <source>ssc_opamp_differentiator</source>
+    <thumbnail>html/ssc_opamp_differentiator_01.png</thumbnail>
+    <file>html/ssc_opamp_differentiator.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Op-Amp Circuit - Inverting Amplifier</label>
+    <source>ssc_opamp_inverting</source>
+    <thumbnail>html/ssc_opamp_inverting_01.png</thumbnail>
+    <file>html/ssc_opamp_inverting.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Op-Amp Circuit - Noninverting Amplifier</label>
+    <source>ssc_opamp_noninverting</source>
+    <thumbnail>html/ssc_opamp_noninverting_01.png</thumbnail>
+    <file>html/ssc_opamp_noninverting.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Nonlinear Inductor</label>
+    <source>ssc_nonlinear_inductor</source>
+    <thumbnail>html/ssc_nonlinear_inductor_01.png</thumbnail>
+    <file>html/ssc_nonlinear_inductor.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Full-Wave Bridge Rectifier</label>
+    <source>ssc_bridge_rectifier</source>
+    <thumbnail>html/ssc_bridge_rectifier_01.png</thumbnail>
+    <file>html/ssc_bridge_rectifier.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Circuit Breaker</label>
+    <source>ssc_circuitbreaker</source>
+    <thumbnail>html/ssc_circuitbreaker_01.png</thumbnail>
+    <file>html/ssc_circuitbreaker.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Circuit Breaker with Probe Block</label>
+    <source>ssc_probe</source>
+    <thumbnail>html/ssc_probe_01.png</thumbnail>
+    <file>html/ssc_probe.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Solenoid</label>
+    <source>ssc_solenoid</source>
+    <thumbnail>html/ssc_solenoid_01.png</thumbnail>
+    <file>html/ssc_solenoid.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Operating Point RLC Transient Response</label>
+    <source>ssc_op_rlc_transient_response</source>
+    <thumbnail>html/ssc_op_rlc_transient_response_01.png</thumbnail>
+    <file>html/ssc_op_rlc_transient_response.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Magnetic Systems</label>
+   <demoitem>
+    <label>Solenoid with Magnetic Blocks</label>
+    <source>ssc_solenoid_magnetic</source>
+    <thumbnail>html/ssc_solenoid_magnetic_01.png</thumbnail>
+    <file>html/ssc_solenoid_magnetic.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Electrical Transformer</label>
+    <source>ssc_transformer</source>
+    <thumbnail>html/ssc_transformer_01.png</thumbnail>
+    <file>html/ssc_transformer.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Hydraulic Systems</label>
+   <demoitem>
+    <label>Hydraulic Actuator with Analog Position Controller</label>
+    <source>ssc_hydraulic_actuator_analog_control</source>
+    <thumbnail>html/ssc_hydraulic_actuator_analog_control_01.png</thumbnail>
+    <file>html/ssc_hydraulic_actuator_analog_control.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator with Analog Position Controller and Dashboard Blocks</label>
+    <source>ssc_hydraulic_actuator_analog_control_dashboard</source>
+    <thumbnail>html/ssc_hydraulic_actuator_analog_control_dashboard_01.png</thumbnail>
+    <file>html/ssc_hydraulic_actuator_analog_control_dashboard.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator with Digital Position Controller</label>
+    <source>ssc_hydraulic_actuator_digital_control</source>
+    <thumbnail>html/ssc_hydraulic_actuator_digital_control_01.png</thumbnail>
+    <file>html/ssc_hydraulic_actuator_digital_control.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator Configured for HIL Testing</label>
+    <source>ssc_hydraulic_actuator_HIL</source>
+    <thumbnail>html/ssc_hydraulic_actuator_HIL_01.png</thumbnail>
+    <file>html/ssc_hydraulic_actuator_HIL.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Cavitation Cycle</label>
+    <source>ssc_hydraulic_cavitation_cycle</source>
+    <thumbnail>html/ssc_hydraulic_cavitation_cycle_01.png</thumbnail>
+    <file>html/ssc_hydraulic_cavitation_cycle.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Isothermal Liquid Systems</label>
+   <demoitem>
+    <label>Hydraulic Actuator with Analog Position Controller</label>
+    <source>ssc_il_actuator_analog_control</source>
+    <thumbnail>html/ssc_il_actuator_analog_control_01.png</thumbnail>
+    <file>html/ssc_il_actuator_analog_control.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator with Analog Position Controller and Dashboard Blocks</label>
+    <source>ssc_il_actuator_analog_control_dashboard</source>
+    <thumbnail>html/ssc_il_actuator_analog_control_dashboard_01.png</thumbnail>
+    <file>html/ssc_il_actuator_analog_control_dashboard.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator with Digital Position Controller</label>
+    <source>ssc_il_actuator_digital_control</source>
+    <thumbnail>html/ssc_il_actuator_digital_control_01.png</thumbnail>
+    <file>html/ssc_il_actuator_digital_control.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator Configured for HIL Testing</label>
+    <source>ssc_il_actuator_HIL</source>
+    <thumbnail>html/ssc_il_actuator_HIL_01.png</thumbnail>
+    <file>html/ssc_il_actuator_HIL.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Entrained Air Effects</label>
+    <source>ssc_il_entrained_air</source>
+    <thumbnail>html/ssc_il_entrained_air_01.png</thumbnail>
+    <file>html/ssc_il_entrained_air.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Thermal Liquid Systems</label>
+   <demoitem>
+    <label>Hydraulic Fluid Warming Due to Losses</label>
+    <source>ssc_tl_hydraulic_fluid_warming</source>
+    <thumbnail>html/ssc_tl_hydraulic_fluid_warming_01.png</thumbnail>
+    <file>html/ssc_tl_hydraulic_fluid_warming.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Optimal Pipeline Geometry for Heated Oil Transportation</label>
+    <source>ssc_tl_oil_pipeline</source>
+    <thumbnail>html/ssc_tl_oil_pipeline_01.png</thumbnail>
+    <file>html/ssc_tl_oil_pipeline.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Water Hammer Effect</label>
+    <source>ssc_tl_water_hammer</source>
+    <thumbnail>html/ssc_tl_water_hammer_01.png</thumbnail>
+    <file>html/ssc_tl_water_hammer.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Engine Cooling System</label>
+    <source>ssc_engine_cooling_system</source>
+    <thumbnail>html/ssc_engine_cooling_system_01.png</thumbnail>
+    <file>html/ssc_engine_cooling_system.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Gas Systems</label>
+   <demoitem>
+    <label>Pneumatic Actuation Circuit</label>
+    <source>ssc_pneumatic_actuator</source>
+    <thumbnail>html/ssc_pneumatic_actuator_01.png</thumbnail>
+    <file>html/ssc_pneumatic_actuator.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Pneumatic Motor Circuit</label>
+    <source>ssc_pneumatic_motor</source>
+    <thumbnail>html/ssc_pneumatic_motor_01.png</thumbnail>
+    <file>html/ssc_pneumatic_motor.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Choked Flow in Gas Orifice</label>
+    <source>ssc_choked_orifice</source>
+    <thumbnail>html/ssc_choked_orifice_01.png</thumbnail>
+    <file>html/ssc_choked_orifice.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Brayton Cycle (Gas Turbine) with Custom Components</label>
+    <source>ssc_brayton_cycle</source>
+    <thumbnail>html/ssc_brayton_cycle_01.png</thumbnail>
+    <file>html/ssc_brayton_cycle.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Building Ventilation</label>
+    <source>ssc_building_ventilation</source>
+    <thumbnail>html/ssc_building_ventilation_01.png</thumbnail>
+    <file>html/ssc_building_ventilation.html</file>
+    <type>model</type>
+   </demoitem>
+    <demoitem>
+        <label>Gamma Stirling Engine</label>
+        <source>ssc_stirling_engine</source>
+        <thumbnail>html/ssc_stirling_engine_01.png</thumbnail>
+        <file>html/ssc_stirling_engine.html</file>
+        <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Moist Air Systems</label>
+   <demoitem>
+    <label>Vehicle HVAC System</label>
+    <source>ssc_vehicle_hvac</source>
+    <thumbnail>html/ssc_vehicle_hvac_01.png</thumbnail>
+    <file>html/ssc_vehicle_hvac.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Aircraft Environmental Control System</label>
+    <source>ssc_aircraft_ecs</source>
+    <thumbnail>html/ssc_aircraft_ecs_01.png</thumbnail>
+    <file>html/ssc_aircraft_ecs.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>PEM Fuel Cell System</label>
+    <source>ssc_fuel_cell</source>
+    <thumbnail>html/ssc_fuel_cell_01.png</thumbnail>
+    <file>html/ssc_fuel_cell.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Medical Ventilator with Lung Model</label>
+    <source>ssc_medical_ventilator</source>
+    <thumbnail>html/ssc_medical_ventilator_01.png</thumbnail>
+    <file>html/ssc_medical_ventilator.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Oxygen Concentrator</label>
+    <source>ssc_oxygen_concentrator</source>
+    <thumbnail>html/ssc_oxygen_concentrator_01.png</thumbnail>
+    <file>html/ssc_oxygen_concentrator.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Pneumatic Actuator with Humidity</label>
+    <source>ssc_pneumatic_actuator_humidity</source>
+    <thumbnail>html/ssc_pneumatic_actuator_humidity_01.png</thumbnail>
+    <file>html/ssc_pneumatic_actuator_humidity.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Two-Phase Fluid Systems</label>
+   <demoitem>
+    <label>Cavitation in Two-Phase Fluid</label>
+    <source>ssc_cavitation_two_phase_fluid</source>
+    <thumbnail>html/ssc_cavitation_two_phase_fluid_01.png</thumbnail>
+    <file>html/ssc_cavitation_two_phase_fluid.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Fluid Vaporization in Pipe</label>
+    <source>ssc_fluid_vaporization_in_pipe</source>
+    <thumbnail>html/ssc_fluid_vaporization_in_pipe_01.png</thumbnail>
+    <file>html/ssc_fluid_vaporization_in_pipe.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Two-Phase Fluid Refrigeration</label>
+    <source>ssc_refrigeration</source>
+    <thumbnail>html/ssc_refrigeration_01.png</thumbnail>
+    <file>html/ssc_refrigeration.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Rankine Cycle (Steam Turbine)</label>
+    <source>ssc_rankine_cycle</source>
+    <thumbnail>html/ssc_rankine_cycle_01.png</thumbnail>
+    <file>html/ssc_rankine_cycle.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Transcritical CO2 (R744) Refrigeration Cycle</label>
+    <source>ssc_transcritical_refrigeration</source>
+    <thumbnail>html/ssc_transcritical_refrigeration_01.png</thumbnail>
+    <file>html/ssc_transcritical_refrigeration.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Thermal Systems</label>
+   <demoitem>
+    <label>House Heating System</label>
+    <source>ssc_house_heating_system</source>
+    <thumbnail>html/ssc_house_heating_system_01.png</thumbnail>
+    <file>html/ssc_house_heating_system.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Motor Thermal Circuit</label>
+    <source>ssc_motor_thermal_circuit</source>
+    <thumbnail>html/ssc_motor_thermal_circuit_01.png</thumbnail>
+    <file>html/ssc_motor_thermal_circuit.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Heat Conduction Through Iron Rod</label>
+    <source>ssc_round_rod_heat_conduction</source>
+    <thumbnail>html/ssc_round_rod_heat_conduction_01.png</thumbnail>
+    <file>html/ssc_round_rod_heat_conduction.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Creating Components and Libraries</label>
+   <demoitem>
+    <label>Vehicle HVAC System</label>
+    <source>ssc_vehicle_hvac</source>
+    <thumbnail>html/ssc_vehicle_hvac_01.png</thumbnail>
+    <file>html/ssc_vehicle_hvac.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Aircraft Environmental Control System</label>
+    <source>ssc_aircraft_ecs</source>
+    <thumbnail>html/ssc_aircraft_ecs_01.png</thumbnail>
+    <file>html/ssc_aircraft_ecs.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>PEM Fuel Cell System</label>
+    <source>ssc_fuel_cell</source>
+    <thumbnail>html/ssc_fuel_cell_01.png</thumbnail>
+    <file>html/ssc_fuel_cell.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Ultracapacitor Energy Storage with Custom Component</label>
+    <source>ssc_ultracapacitor</source>
+    <thumbnail>html/ssc_ultracapacitor_01.png</thumbnail>
+    <file>html/ssc_ultracapacitor.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Transmission Line</label>
+    <source>ssc_transmission_line</source>
+    <thumbnail>html/ssc_transmission_line_01.png</thumbnail>
+    <file>html/ssc_transmission_line.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Engine Cooling System</label>
+    <source>ssc_engine_cooling_system</source>
+    <thumbnail>html/ssc_engine_cooling_system_01.png</thumbnail>
+    <file>html/ssc_engine_cooling_system.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Brayton Cycle (Gas Turbine)</label>
+    <source>ssc_brayton_cycle</source>
+    <thumbnail>html/ssc_brayton_cycle_01.png</thumbnail>
+    <file>html/ssc_brayton_cycle.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Rankine Cycle (Steam Turbine)</label>
+    <source>ssc_rankine_cycle</source>
+    <thumbnail>html/ssc_rankine_cycle_01.png</thumbnail>
+    <file>html/ssc_rankine_cycle.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Battery Cell with Custom Electrochemical Domain</label>
+    <source>ssc_electrochemical_battery</source>
+    <thumbnail>html/ssc_electrochemical_battery_01.png</thumbnail>
+    <file>html/ssc_electrochemical_battery.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lead-Acid Battery</label>
+    <source>ssc_lead_acid_battery</source>
+    <thumbnail>html/ssc_lead_acid_battery_01.png</thumbnail>
+    <file>html/ssc_lead_acid_battery.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium Battery Cell - One RC-Branch Equivalent Circuit</label>
+    <source>ssc_lithium_cell_1RC</source>
+    <thumbnail>html/ssc_lithium_cell_1RC_01.png</thumbnail>
+    <file>html/ssc_lithium_cell_1RC.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Lithium Battery Cell - Two RC-Branch Equivalent Circuit</label>
+    <source>ssc_lithium_cell_2RC</source>
+    <thumbnail>html/ssc_lithium_cell_2RC_01.png</thumbnail>
+    <file>html/ssc_lithium_cell_2RC.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Variable Transport Delay</label>
+    <source>ssc_transport_delay</source>
+    <thumbnail>html/ssc_transport_delay_01.png</thumbnail>
+    <file>html/ssc_transport_delay.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Asynchronous PWM Voltage Source</label>
+    <source>ssc_pwm_asynchronous</source>
+    <thumbnail>html/ssc_pwm_asynchronous_01.png</thumbnail>
+    <file>html/ssc_pwm_asynchronous.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Discrete-Time PWM Voltage Source</label>
+    <source>ssc_pwm_discrete</source>
+    <thumbnail>html/ssc_pwm_discrete_01.png</thumbnail>
+    <file>html/ssc_pwm_discrete.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Actuation Circuit with Custom Pneumatic Components</label>
+    <source>ssc_actuator_custom_pneumatic</source>
+    <thumbnail>html/ssc_actuator_custom_pneumatic_01.png</thumbnail>
+    <file>html/ssc_actuator_custom_pneumatic.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Simscape Functions</label>
+    <source>ssc_reusefunctions</source>
+    <thumbnail>html/ssc_reusefunctions_01.png</thumbnail>
+    <file>html/ssc_reusefunctions.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Mass on Cart using an Ideal Hard Stop</label>
+    <source>ssc_ideal_hard_stop</source>
+    <thumbnail>html/ssc_ideal_hard_stop_01.png</thumbnail>
+    <file>html/ssc_ideal_hard_stop.html</file>
+    <type>model</type>
+   </demoitem>
+</demosection>
+<demosection>
+ <label>Generating Frequency Responses</label>
+   <demoitem>
+    <label>Nonlinear Bipolar Transistor</label>
+    <source>ssc_bipolar_nonlinear</source>
+    <thumbnail>html/ssc_bipolar_nonlinear_01.png</thumbnail>
+    <file>html/ssc_bipolar_nonlinear.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Hydraulic Actuator with Digital Position Controller</label>
+    <source>ssc_hydraulic_actuator_digital_control</source>
+    <thumbnail>html/ssc_hydraulic_actuator_digital_control_01.png</thumbnail>
+    <file>html/ssc_hydraulic_actuator_digital_control.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Variant Leaf Region in Mechanical System </label>
+    <source>ssc_variant_connector_leaf_region</source>
+    <thumbnail>html/ssc_variant_connector_leaf_region_01.png</thumbnail>
+    <file>html/ssc_variant_connector_leaf_region.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Variant Bounded Region in Electrical Circuit</label>
+    <source>ssc_variant_connector_bounded_region</source>
+    <thumbnail>html/ssc_variant_connector_bounded_region_01.png</thumbnail>
+    <file>html/ssc_variant_connector_bounded_region.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Variant Connector Block with Simscape Bus Block</label>
+    <source>ssc_variant_connector_with_simscape_bus</source>
+    <thumbnail>html/ssc_variant_connector_with_simscape_bus_01.png</thumbnail>
+    <file>html/ssc_variant_connector_with_simscape_bus.html</file>
+    <type>model</type>
+   </demoitem>
+   <demoitem>
+    <label>Variant Control from Mask Workspace for Variant Connector Block</label>
+    <source>ssc_variant_connector_vc_mask_workspace</source>
+    <thumbnail>html/ssc_variant_connector_vc_mask_workspace_01.png</thumbnail>
+    <file>html/ssc_variant_connector_vc_mask_workspace.html</file>
+    <type>model</type>
+   </demoitem> 
+   <demoitem> 
+    <label>Nonlinear Electromechanical Circuit with Partitioning Solver</label>
+    <source>ssc_nonlinear_electromechanical_circuit</source>
+    <thumbnail>html/ssc_nonlinear_electromechanical_circuit_01.png</thumbnail>
+    <file>html/ssc_nonlinear_electromechanical_circuit.html</file>
+    <type>model</type>
+   </demoitem> 
+</demosection>
+</demos>
